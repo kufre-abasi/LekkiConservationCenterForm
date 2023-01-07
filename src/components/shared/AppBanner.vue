@@ -86,7 +86,7 @@ export default {
         >
           <!-- <i
 						data-feather="arrow-down-circle"
-						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+						class= "ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
 					></i> -->
           <span class="text-sm sm:text-lg font-general-medium duration-100"
             >Resume</span
