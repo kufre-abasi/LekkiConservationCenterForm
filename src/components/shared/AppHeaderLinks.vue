@@ -16,7 +16,7 @@ export default {
       aria-label="Home"
       >Home</router-link
     >
-    <router-link
+    <!-- <router-link
       to="/projects"
       class="font-general-medium block text-left text-lg font-medium text-gray-400 sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
       aria-label="Projects"
@@ -33,7 +33,7 @@ export default {
       class="font-general-medium block text-left text-lg font-medium text-gray-400 sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
       aria-label="Contact"
       >Contact</router-link
-    >
+    > -->
     <!-- <div
 			class="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark"
 		>

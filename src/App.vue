@@ -2,11 +2,11 @@
 import feather from "feather-icons";
 import AppHeader from "./components/shared/AppHeader";
 import AppFooter from "./components/shared/AppFooter";
-import AboutMe from "./views/About.vue";
+// import AboutMe from "./views/About.vue";
 import Home from "./views/Home.vue";
 import Contact from "./views/Contact.vue";
-import ProjectsGrid from "./views/Projects.vue";
-import Skills from "./components/skills/Skills.vue";
+// import ProjectsGrid from "./views/Projects.vue";
+// import Skills from "./components/skills/Skills.vue";
 // import PageLoader from './components/PageLoader/PageLoader.vue';
 
 export default {
@@ -14,11 +14,11 @@ export default {
     AppHeader,
     AppFooter,
     // PageLoader,
-    AboutMe,
+    // AboutMe,
     Home,
     Contact,
-    ProjectsGrid,
-    Skills,
+    // ProjectsGrid,
+    // Skills,
   },
   data: () => {
     return {
@@ -39,9 +39,9 @@ export default {
     <!-- <PageLoader /> -->
     <AppHeader />
     <Home />
-    <AboutMe />
-    <Skills />
-    <ProjectsGrid />
+    <!-- <AboutMe /> -->
+    <!-- <Skills /> -->
+    <!-- <ProjectsGrid /> -->
     <Contact />
     <AppFooter />
 
@@ -63,11 +63,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: #663419;
-  /*	background-color: #0d2438;*/
+  /* background-color: #663419; */
+  /* background-color: #0d2438; */
 
   /* background-color: #141414; */
-  /* background-color: #333; */
+  /* background-color: #1e3851; */
 }
 
 .vue-back-to-top {
@@ -79,10 +79,10 @@ export default {
   border-radius: 50%;
   font-size: 22px;
   line-height: 22px;
-  background: #022c0c;
+  background: #c3910a;
 }
 .vue-back-to-top:hover {
-  background: #3cff76;
+  background: #f9c656;
 }
 
 .fade-enter-active {

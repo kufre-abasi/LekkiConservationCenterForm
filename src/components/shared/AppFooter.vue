@@ -36,12 +36,12 @@ export default {
           icon: "linkedin",
           url: "https://www.linkedin.com/in/kufre-abasi-bassey-692b38212/",
         },
-        {
-          id: 5,
-          name: "WhatsApp",
-          icon: "phone",
-          url: "https://wa.link/x477i5",
-        },
+        // {
+        //   id: 5,
+        //   name: "WhatsApp",
+        //   icon: "phone",
+        //   url: "https://wa.link/x477i5",
+        // },
       ],
     };
   },
@@ -55,31 +55,41 @@ export default {
 </script>
 
 <template>
-  <div class="container mx-auto">
-    <div class="pt-20 sm:pt-30 pb-8 mt-20">
+  <div class="bg-secondary-dark">
+    <div class="pt-20 sm:pt-30 mt-20">
       <!-- Footer social links -->
-      <div class="flex flex-col justify-center items-center mb-12 sm:mb-20">
-        <p
-          class="font-general-semibold text-3xl sm:text-4xl font-semibold text-gray-300 mb-5"
-        >
-          Follow me
+      <div class="flex flex-col justify-left items-left text-left mb-12 sm:mb-20 px-20">
+        <img src="@/assets/images/logoss.png " alt="" class="logo" />
+
+        <!-- <p class="font-general-regular text-md capitalize sm:text-md text-gray-300"></p> -->
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300 mb-2">
+          Lekki,Lagos,Nigeria
         </p>
-        <ul class="flex gap-4 sm:gap-8">
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
+          Phone: +234 81323232
+        </p>
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300 mb-6">
+          Email: info@tribalgetway.com
+        </p>
+
+        <ul class="flex gap-4 sm:gap-2">
           <a
             v-for="social in socials"
             :key="social.id"
             :href="social.url"
             target="__blank"
-            class="icons cursor-pointer rounded-lg bg-slate-50 shadow-sm p-4 duration-500"
+            class="cursor-pointer rounded-lg bg-primary shadow-sm p-2 duration-500"
           >
-            <i :data-feather="social.icon" class="w-5 sm:w-8 h-5 sm:h-8"></i>
+            <i :data-feather="social.icon" class="w-4 sm:w-5 h-4 sm:h-6"></i>
           </a>
         </ul>
       </div>
-
-      <!-- Footer copyright -->
-      <FooterCopyright />
     </div>
+
+
+          <!-- Footer copyright -->
+          <FooterCopyright />
+
   </div>
 </template>
 
@@ -91,5 +101,8 @@ export default {
 .icons {
   background: #022c0c;
   color: #000;
+}
+.logo {
+  width: 10%;
 }
 </style>

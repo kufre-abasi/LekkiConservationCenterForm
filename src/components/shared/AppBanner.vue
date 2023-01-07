@@ -36,22 +36,22 @@ export default {
 <template>
   <section class="sm:flex-row my-40 sm:my-30 h-96 w-auto py-30">
     <!-- Banner left contents -->
-    <div class="w-auto md:w-auto text-left">
+    <div class="w-auto md:w-auto text-center">
       <h1
-        class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-left text-gray-300 uppercase"
+        class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center text-gray-900 uppercase"
       >
         WELCOME TO
         <span class="text-color font-general-semibold">NIGERIA! </span>
       </h1>
       <p
-        class="font-general-regular mt-2 text-lg sm:text-xl xl:text-lg text-left leading-none text-gray-400"
+        class="font-general-regular mt-2 text-lg sm:text-xl xl:text-lg text-center leading-none text-white-500"
       >
         Take a walk along the longest canopy in Africa. From Monkeys to the beautiful
         Peacock, crocodiles, snakes, and other wild animals, you will see all these at
         this reserve. You will also enjoy the beautiful scenery of all the different
         species of plants.
       </p>
-      <div class="justify-center w-auto items-center text-left sm:block mt-12">
+      <div class="justify-center w-auto items-center text-center sm:block mt-12">
         <!-- <div> 
     <button @click="downloadPDF">Print Download</button>
     <VueHtml2pdf :manual-pagination="true" :enable-download="true" ref="DownloadComp">
@@ -63,17 +63,17 @@ export default {
   </div>
  -->
 
-        <a
+        <!-- <a
           download="Resume.pdf"
           href="mailto: kufreabasibassey3@gmail.com"
           class="justify-center items-center w-36 sm:w-48 m-2 mt-12 mb-6 sm:mb-0 text-lg btn py-2.5 px-5 sm:py-3 rounded-sm focus:ring-1 duration-500"
           aria-label=""
           te
         >
-          <!-- <i
-						data-feather="arrow-down-circle"
-						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
-					></i> -->
+          <i
+            data-feather="arrow-down-circle"
+            class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+          ></i>
           <span class="text-sm sm:text-lg font-general-medium duration-100"
             >Hire Me</span
           ></a
@@ -84,22 +84,22 @@ export default {
           class="justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg btn py-2.5 px-5 sm:py-3 rounded-sm focus:ring-1 duration-500"
           aria-label="Download Resume"
         >
-          <!-- <i
+          <i
 						data-feather="arrow-down-circle"
 						class= "ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
-					></i> -->
+					></i>
           <span class="text-sm sm:text-lg font-general-medium duration-100"
             >Resume</span
           ></a
-        >
+        > -->
       </div>
     </div>
-
+    <div></div>
     <!-- Banner right illustration -->
-    <div class="w-full md:w-2/3 text-right float-right">
+    <!-- <div class="w-full flex-col md:w-1/4 text-right float-right">
       <img v-if="theme === 'light'" src="@/assets/images/developer.svg" alt="Developer" />
       <img v-else src="@/assets/images/developer-dark.svg" alt="Developer" />
-    </div>
+    </div> -->
   </section>
 </template>
 
@@ -117,8 +117,12 @@ export default {
 .btn:hover {
   background: #3cff76;
 }
+.cutom-border {
+  border: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
 .text-color {
-  color: #022c0c;
+  color: #06b930;
   text-shadow: #fcfdfd 2px;
   /* -webkit-text-stroke: 0.25px #3cff76; */
 }

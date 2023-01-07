@@ -19,8 +19,8 @@ module.exports = {
 				'secondary-light': '#FFFFFF',
 				'ternary-light': '#f6f7f8',
 
-				'primary-dark': '#000',
-				'secondary-dark': '#022c0c',
+				'primary-dark': '#020001',
+				'secondary-dark': '#161514',
 				'ternary-dark': '#1E3851',
 			},
 			container: {

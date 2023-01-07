@@ -10,13 +10,18 @@ export default {
     // ProjectsGrid,
     // Button,
   },
+  data() {
+    return {
+      containerClasses: ["bg-image"],
+    };
+  },
 };
 </script>
 
 <template>
-  <div class="container">
+  <div class="pt-10">
     <!-- Banner -->
-    <AppBanner class="mb-5 sm:mb-8" />
+    <AppBanner class="mb-5 sm:mb-8 container" />
 
     <!-- Projects -->
     <!-- <ProjectsGrid /> -->
@@ -34,4 +39,11 @@ export default {
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.bg-image {
+  background-image: url(../assets/images/bg-lekki.png);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.418);
+  background-blend-mode: overlay;
+}
+</style>
