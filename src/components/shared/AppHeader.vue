@@ -71,18 +71,17 @@ export default {
 </script>
 
 <template>
-  <nav id="nav" class="sm:container sm:mx-auto shadow-xl">
+  <nav id="nav" class="shadow-xl fixed top-0 z-10 bg-primary-dark w-full">
     <!-- Header start -->
     <div
-      class="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center my-6 items-center"
+      class="z-10 container max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between my-2 sm:items-center items-center"
     >
       <!-- Header menu links and small screen hamburger menu -->
-      <div class="flex justify-between items-center px-4 sm:px-0">
+      <div class="flex justify-between items-center">
         <!-- Header logos -->
         <div>
           <router-link to="/">
-            <!-- <h1><i class="fa fa-home" aria-hidden="true"></i><h1/> -->
-            <!-- <img src="@/assets/images/beeklogo.png" alt="" class="logo"> -->
+            <img src="@/assets/images/logot.jpeg " alt="" class="logo" />
 
             <!--	<img
 							v-if="theme === 'light'"
@@ -139,9 +138,9 @@ export default {
       <AppHeaderLinks :showModal="showModal" :isOpen="isOpen" class="text-center" />
 
       <!-- Header right section buttons -->
-      <div class="hidden sm:flex justify-between items-center flex-col md:flex-row">
-        <!-- Hire me button -->
-        <!--<div class="hidden md:block">
+      <!-- <div class="hidden sm:flex justify-between items-center flex-col md:flex-row"> -->
+      <!-- Hire me button -->
+      <!--<div class="hidden md:block">
 					<Button
 						title="Hire Me"
 						class="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
@@ -150,13 +149,13 @@ export default {
 					/>
 				</div> -->
 
-        <!-- Theme switcher large screen -->
-        <!-- <theme-switcher
+      <!-- Theme switcher large screen -->
+      <!-- <theme-switcher
 					:theme="theme"
 					@themeChanged="updateTheme"
 					class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer"
 				/> -->
-      </div>
+      <!-- </div> -->
     </div>
 
     <!-- Hire me modal -->
