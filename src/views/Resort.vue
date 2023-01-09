@@ -23,14 +23,8 @@ export default {
 
 <template>
   <div>
-    <!-- Banner -->
-    <!-- <AppBanner class="mb-5 sm:mb-8 container" /> -->
-    <!-- home -->
     <Home />
-    <!-- Projects -->
     <Contact />
-
-    <!-- Load more projects button -->
   </div>
 </template>
 

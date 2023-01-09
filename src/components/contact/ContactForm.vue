@@ -46,10 +46,10 @@ export default {
 
 <template>
   <div class="w-full md:w-1/2">
-    <div class="leading-loose max-w-xl text-left">
-      <p class="font-general-regular text-gray-500 text-2xl mb-8">
+    <div class="leading-loose max-w-xl text-left mt-20">
+      <!-- <p class="font-general-regular text-gray-500 text-md mb-8">
         Please fill out the form to create your custom package.
-      </p>
+      </p> -->
       <form ref="form" class="font-general-regular space-y-7" @submit.prevent="sendEmail">
         <div>
           <label class="block text-lg text-primary-dark mb-2" for="name">Name </label>

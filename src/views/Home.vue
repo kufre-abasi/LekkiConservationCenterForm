@@ -19,9 +19,9 @@ export default {
 </script>
 
 <template>
-  <div class="pt-10">
+  <div class="pt-10" :class="containerClasses">
     <!-- Banner -->
-    <AppBanner class="mb-5 sm:mb-8 container" />
+    <AppBanner class="mb-10 sm:mb-20 container" />
 
     <!-- Projects -->
     <!-- <ProjectsGrid /> -->
@@ -43,7 +43,7 @@ export default {
 .bg-image {
   background-image: url(../assets/images/bg-lekki.png);
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.418);
+  background-color: rgba(6, 24, 1, 0.863) 18;
   background-blend-mode: overlay;
 }
 </style>

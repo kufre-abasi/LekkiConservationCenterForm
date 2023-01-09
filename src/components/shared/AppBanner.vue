@@ -34,17 +34,17 @@ export default {
 </script>
 
 <template>
-  <section class="sm:flex-row my-40 sm:my-30 h-96 w-auto py-30">
+  <section class="sm:flex-row my-30 sm:my-30 md:h-96 sm:h-96 h-86 w-auto py-40">
     <!-- Banner left contents -->
     <div class="w-auto md:w-auto text-center">
       <h1
-        class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center text-gray-900 uppercase"
+        class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center text-gray-200 uppercase"
       >
         WELCOME TO
         <span class="text-color font-general-semibold">NIGERIA! </span>
       </h1>
       <p
-        class="font-general-regular mt-2 text-lg sm:text-xl xl:text-lg text-center leading-none text-white-500"
+        class="font-general-regular mt-2 text-lg sm:text-xl xl:text-lg text-center leading-none text-gray-200"
       >
         Take a walk along the longest canopy in Africa. From Monkeys to the beautiful
         Peacock, crocodiles, snakes, and other wild animals, you will see all these at
@@ -122,7 +122,7 @@ export default {
 }
 
 .text-color {
-  color: #06b930;
+  color: #02801df8;
   text-shadow: #fcfdfd 2px;
   /* -webkit-text-stroke: 0.25px #3cff76; */
 }

@@ -56,7 +56,7 @@ export default {
 </script>
 
 <template>
-  <div class="sm:px-20 px-10 py-5 md:py-10 mt-10 md:mt-30">
+  <div class="sm:px-20 px-10 py-5 md:py-12 mt-10 md:mt-30">
     <!-- <div class="text-center pb-4">
       <h1
         v-for="heading in headings"
@@ -67,7 +67,7 @@ export default {
       </h1>
     </div> -->
 
-    <div class="flex flex-col-reverse md:flex-row">
+    <div class="flex flex-col md:flex-row">
       <!-- Contact details -->
       <ContactDetails :contacts="contacts" :headers="headers" />
 

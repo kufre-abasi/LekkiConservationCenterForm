@@ -10,7 +10,7 @@ export default {
       <h2
         v-for="header in headers"
         :key="header.id"
-        class="font-general-medium text-2xl text-gray-500 mb-8"
+        class="font-general-medium sm:text-2xl text-lg text-gray-500 mb-8"
       >
         {{ header.name }}
       </h2>
@@ -21,6 +21,9 @@ export default {
           </p>
         </li>
       </ul>
+      <p class="font-general-regular text-gray-500 text-md mb-8">
+        Please fill out the form to create your custom package.
+      </p>
     </div>
   </div>
 </template>
