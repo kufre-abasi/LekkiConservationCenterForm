@@ -58,11 +58,11 @@ export default {
 
 <template>
   <div class="bg-secondary-dark">
-    <div class="pt-20 sm:pt-30 mt-20 grid grid-row">
+    <div
+      class="pt-20 sm:pt-30 mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-6 sm:px-20 px-10 sm:gap-5"
+    >
       <!-- Footer social links -->
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10 justify-left items-left text-left mb-12 sm:mb-20 px-20"
-      >
+      <div class="justify-left items-left text-left mb-12 sm:mb-20">
         <img src="@/assets/images/logoss.png " alt="" class="logo" />
 
         <!-- <p class="font-general-regular text-md capitalize sm:text-md text-gray-300"></p> -->
@@ -89,9 +89,7 @@ export default {
         </ul>
       </div>
 
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10 justify-left items-left text-left mb-12 sm:mb-20 px-10"
-      >
+      <div class="justify-left items-left text-left mb-12 sm:mb-20">
         <h4
           class="font-general-semibold text-md capitalize sm:text-md text-gray-300 mb-2"
         >
@@ -115,9 +113,7 @@ export default {
         </p>
       </div>
 
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10 justify-left items-left text-left mb-12 sm:mb-20 px-10"
-      >
+      <div class="justify-left items-left text-left mb-12 sm:mb-20">
         <h4
           class="font-general-semibold text-md capitalize sm:text-md text-gray-300 mb-2"
         >
@@ -134,9 +130,7 @@ export default {
           Marketing
         </p>
       </div>
-      <div
-        class="grid grid-cols sm:grid-cols lg:grid-cols mt-6 sm:gap-10 justify-left items-left text-left mb-12 sm:mb-20 px-10"
-      >
+      <div class="justify-left items-left text-left mb-12 sm:mb-20">
         <h4
           class="font-general-semibold text-md capitalize sm:text-md text-gray-300 mb-2"
         >
