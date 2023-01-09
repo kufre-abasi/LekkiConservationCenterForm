@@ -54,7 +54,7 @@ export default {
 
 <template>
   <div class="container mx-auto py-5 md:py-20 mt-10 md:mt-40">
-    <div class="text-center pb-4">
+    <!-- <div class="text-center pb-4">
       <h1
         v-for="heading in headings"
         :key="heading.id"
@@ -62,14 +62,17 @@ export default {
       >
         {{ heading.heading }}
       </h1>
-    </div>
+    </div> -->
 
     <div class="flex flex-col-reverse md:flex-row">
+     
+           <!-- Contact details -->
+           <ContactDetails :contacts="contacts" />
+
+     
       <!-- Contact form -->
       <ContactForm />
 
-      <!-- Contact details -->
-      <ContactDetails :contacts="contacts" />
     </div>
   </div>
 </template>

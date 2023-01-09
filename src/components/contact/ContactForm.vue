@@ -46,7 +46,7 @@ export default {
 
 <template>
   <div class="w-full md:w-1/2">
-    <div class="leading-loose max-w-xl p-6 rounded-xl shadow-xl text-left">
+    <div class="leading-loose max-w-xl p-6  text-left">
       <!-- <p class="font-general-medium text-gray-500 text-2xl mb-8">Contact Me</p> -->
       <form ref="form" class="font-general-regular space-y-7" @submit.prevent="sendEmail">
         <div>

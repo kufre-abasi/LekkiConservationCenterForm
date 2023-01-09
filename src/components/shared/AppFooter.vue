@@ -1,8 +1,10 @@
 <script>
 import feather from "feather-icons";
 import FooterCopyright from "./FooterCopyright.vue";
+import Button from "../reusable/Button.vue";
+
 export default {
-  components: { FooterCopyright },
+  components: { FooterCopyright, Button },
   data() {
     return {
       socials: [
@@ -56,9 +58,11 @@ export default {
 
 <template>
   <div class="bg-secondary-dark">
-    <div class="pt-20 sm:pt-30 mt-20">
+    <div class="pt-20 sm:pt-30 mt-20 grid grid-row">
       <!-- Footer social links -->
-      <div class="flex flex-col justify-left items-left text-left mb-12 sm:mb-20 px-20">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10 justify-left items-left text-left mb-12 sm:mb-20 px-20"
+      >
         <img src="@/assets/images/logoss.png " alt="" class="logo" />
 
         <!-- <p class="font-general-regular text-md capitalize sm:text-md text-gray-300"></p> -->
@@ -78,18 +82,93 @@ export default {
             :key="social.id"
             :href="social.url"
             target="__blank"
-            class="cursor-pointer rounded-lg bg-primary shadow-sm p-2 duration-500"
+            class="cursor-pointer rounded-lg bg-gray-400 shadow-sm p-2 duration-500"
           >
             <i :data-feather="social.icon" class="w-4 sm:w-5 h-4 sm:h-6"></i>
           </a>
         </ul>
       </div>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10 justify-left items-left text-left mb-12 sm:mb-20 px-10"
+      >
+        <h4
+          class="font-general-semibold text-md capitalize sm:text-md text-gray-300 mb-2"
+        >
+          Useful Links
+        </h4>
+
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
+          Home
+        </p>
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
+          About Us
+        </p>
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
+          Services
+        </p>
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
+          Terms of service
+        </p>
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
+          privacy policy
+        </p>
+      </div>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10 justify-left items-left text-left mb-12 sm:mb-20 px-10"
+      >
+        <h4
+          class="font-general-semibold text-md capitalize sm:text-md text-gray-300 mb-2"
+        >
+          Our Services
+        </h4>
+
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
+          Tourist
+        </p>
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
+          Banking
+        </p>
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
+          Marketing
+        </p>
+      </div>
+      <div
+        class="grid grid-cols sm:grid-cols lg:grid-cols mt-6 sm:gap-10 justify-left items-left text-left mb-12 sm:mb-20 px-10"
+      >
+        <h4
+          class="font-general-semibold text-md capitalize sm:text-md text-gray-300 mb-2"
+        >
+          Our Newsletter
+        </h4>
+
+        <p class="font-general-regular text-md capitalize sm:text-md text-gray-300 mb-2">
+          Subscribe to our newsletter to get updates on new services and latest post
+        </p>
+        <div
+          class="font-general-regular text-md capitalize sm:text-md text-gray-300 flex flex-row"
+        >
+          <input
+            class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+            id="email"
+            name="email"
+            type="text"
+            required=""
+            placeholder="Email"
+            aria-label="Email"
+          />
+          <Button
+            title="Subscribe"
+            class="px-4 sm:px-6 py-2 sm:py-2.5 text-white bg-primary hover:bg-indigo-600 rounded-md focus:ring-1 focus:ring-indigo-900 duration-500"
+            type="submit"
+            aria-label="Submit Request"
+          />
+        </div>
+      </div>
     </div>
-
-
-          <!-- Footer copyright -->
-          <FooterCopyright />
-
+    <!-- Footer copyright -->
+    <FooterCopyright />
   </div>
 </template>
 
@@ -103,6 +182,6 @@ export default {
   color: #000;
 }
 .logo {
-  width: 10%;
+  width: 100px;
 }
 </style>
