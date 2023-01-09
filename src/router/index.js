@@ -7,9 +7,34 @@ const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Kufre - Home',
+			title: 'Tribal-Gateway - Home',
 		},
 	},
+	{
+		path: '/resort-form',
+		name: 'Resort',
+		// route level code-splitting
+		// this generates a separate chunk (about.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "about" */ '../views/About.vue'),
+		meta: {
+			title: 'Tribal-Gateway - About',
+		},
+	},
+	{
+		path: '/relocate-form',
+		name: 'Relocate',
+		// route level code-splitting
+		// this generates a separate chunk (about.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "about" */ '../views/About.vue'),
+		meta: {
+			title: 'Tribal-Gateway - About',
+		},
+	},
+
 	{
 		path: '/about',
 		name: 'About',
@@ -19,7 +44,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "about" */ '../views/About.vue'),
 		meta: {
-			title: 'Kufre - About',
+			title: 'Tribal-Gateway - About',
 		},
 	},
 	{
@@ -31,7 +56,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Projects.vue'),
 		meta: {
-			title: 'Kufre - Projects',
+			title: 'Tribal-Gateway - Projects',
 		},
 	},
 	{
@@ -45,7 +70,7 @@ const routes = [
 				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
 			),
 		meta: {
-			title: 'Kufre - Single Project',
+			title: 'Tribal-Gateway - Single Project',
 		},
 	},
 	{
@@ -57,7 +82,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
 		meta: {
-			title: 'Kufre - Contact',
+			title: 'Tribal-Gateway - Contact',
 		},
 	},
 ];

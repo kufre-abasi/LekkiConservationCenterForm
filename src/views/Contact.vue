@@ -13,31 +13,34 @@ export default {
       contacts: [
         {
           id: 1,
-          name: "Uyo,Nigeria",
-          icon: "map-pin",
+          name: "Entry & Tour",
         },
-        // {
-        //   id: 2,
-        //   name: "Abak,Nigeria",
-        //   icon: "map-pin",
-        // },
         {
           id: 2,
-          name: "kufreabasibassey@gmail.com",
-          icon: "mail",
-          href: "mailto: kufreabasibassey3@gmail.com",
+          name: "Picnic Lunch",
         },
         {
           id: 3,
-          name: "+234 8143 141 053",
-          icon: "phone",
-          href: "tel: +234 8143 141 053",
+          name: "Photo",
+        },
+        {
+          id: 4,
+          name: "Souvenir Gift",
+          icon: "map-pin",
+        },
+        {
+          id: 5,
+          name: "$40 per person",
+        },
+        {
+          id: 6,
+          name: "$60 per person with transportation",
         },
       ],
-      headings: [
+      headers: [
         {
           id: 1,
-          heading: "Contact Me",
+          name: "LEKKI CONSERVATION CENTER VIP PACKAGE Includes",
         },
       ],
     };
@@ -53,7 +56,7 @@ export default {
 </script>
 
 <template>
-  <div class="container mx-auto py-5 md:py-20 mt-10 md:mt-40">
+  <div class="sm:px-20 px-10 py-5 md:py-10 mt-10 md:mt-30">
     <!-- <div class="text-center pb-4">
       <h1
         v-for="heading in headings"
@@ -65,14 +68,11 @@ export default {
     </div> -->
 
     <div class="flex flex-col-reverse md:flex-row">
-     
-           <!-- Contact details -->
-           <ContactDetails :contacts="contacts" />
+      <!-- Contact details -->
+      <ContactDetails :contacts="contacts" :headers="headers" />
 
-     
       <!-- Contact form -->
       <ContactForm />
-
     </div>
   </div>
 </template>
