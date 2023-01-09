@@ -3,8 +3,8 @@ import feather from "feather-icons";
 import AppHeader from "./components/shared/AppHeader";
 import AppFooter from "./components/shared/AppFooter";
 // import AboutMe from "./views/About.vue";
-import Home from "./views/Home.vue";
-import Contact from "./views/Contact.vue";
+// import Home from "./views/Home.vue";
+// import Contact from "./views/Contact.vue";
 // import ProjectsGrid from "./views/Projects.vue";
 // import Skills from "./components/skills/Skills.vue";
 // import PageLoader from './components/PageLoader/PageLoader.vue';
@@ -15,8 +15,8 @@ export default {
     AppFooter,
     // PageLoader,
     // AboutMe,
-    Home,
-    Contact,
+    // Home,
+    // Contact,
     // ProjectsGrid,
     // Skills,
   },
@@ -38,17 +38,19 @@ export default {
   <div :class="appTheme" class="pt-0.5">
     <!-- <PageLoader /> -->
     <AppHeader />
-    <Home />
+    <!-- <Home /> -->
     <!-- <AboutMe /> -->
     <!-- <Skills /> -->
     <!-- <ProjectsGrid /> -->
-    <Contact />
-    <AppFooter />
+    <!-- <Contact /> -->
+    <!-- <AppFooter /> -->
 
     <!-- Render active component contents with vue transition -->
-    <!-- <transition name="fade" mode="out-in">
-			<router-view :theme="appTheme" />
-		</transition> -->
+    <transition name="fade" mode="out-in">
+      <router-view :theme="appTheme" />
+    </transition>
+
+    <AppFooter />
 
     <!-- Scroll to top -->
     <back-to-top visibleoffset="500" right="30px" bottom="20px" class="shadow-lg">
@@ -76,7 +78,7 @@ export default {
         ease-in-out
         transform
         hover:-translate-y-1 hover:scale-110;
-  border-radius: 50%;
+  border-radius: 5%;
   font-size: 22px;
   line-height: 22px;
   background: #c3910a;

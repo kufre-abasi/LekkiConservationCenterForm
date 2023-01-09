@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home.vue';
+import Defult from '../views/Defult.vue';
 
 const routes = [
 	{
 		path: '/',
-		name: 'Home',
-		component: Home,
+		name: 'Defult',
+		component: Defult,
 		meta: {
 			title: 'Tribal-Gateway - Home',
 		},
@@ -17,9 +17,9 @@ const routes = [
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "about" */ '../views/About.vue'),
+			import(/* webpackChunkName: "about" */ '../views/Resort.vue'),
 		meta: {
-			title: 'Tribal-Gateway - About',
+			title: 'Tribal-Gateway - Resort Form',
 		},
 	},
 	{
@@ -29,9 +29,9 @@ const routes = [
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "about" */ '../views/About.vue'),
+			import(/* webpackChunkName: "about" */ '../views/Relocate.vue'),
 		meta: {
-			title: 'Tribal-Gateway - About',
+			title: 'Tribal-Gateway - Relocate Form',
 		},
 	},
 
