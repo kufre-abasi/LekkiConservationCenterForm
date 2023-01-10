@@ -73,7 +73,7 @@ export default {
 <template>
   <nav
     id="nav"
-    class="shadow-xl fixed top-0 z-10 bg-primary-dark bg-opacity-40 md:px-20 px-10 w-full"
+    class="shadow-xl fixed top-0 z-10 bg-primary-dark bg-opacity-30 md:px-20 px-10 w-full"
   >
     <!-- Header start -->
     <div
