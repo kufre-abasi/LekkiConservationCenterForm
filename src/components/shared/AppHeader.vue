@@ -71,10 +71,10 @@ export default {
 </script>
 
 <template>
-  <nav id="nav" class="shadow-xl fixed top-0 z-10 bg-primary-dark w-full">
+  <nav id="nav" class="shadow-xl fixed top-0 z-10 bg-primary-dark px-20 w-full">
     <!-- Header start -->
     <div
-      class="z-10 container py-4 sm:py-0 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between my-2 sm:items-center items-center"
+      class="z-10 py-4 sm:py-0 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between my-2 sm:items-center items-center"
     >
       <!-- Header menu links and small screen hamburger menu -->
       <div class="flex justify-between items-center">
@@ -175,6 +175,6 @@ export default {
   @apply font-medium;
 }
 .logo {
-  width: 30%;
+  width: 25%;
 }
 </style>

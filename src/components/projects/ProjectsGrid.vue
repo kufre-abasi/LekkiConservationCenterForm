@@ -9,7 +9,7 @@ export default {
   data: () => {
     return {
       projects,
-      projectsHeading: "Projects ",
+      projectsHeading: "Services We Offer ",
       selectedProject: "",
       searchProject: "",
       ProjectsFilter,
@@ -49,12 +49,10 @@ export default {
 
 <template>
   <!-- Projects grid -->
-  <section class="pt-10 sm:pt-14">
+  <section class="sm:px-20 px-10 py-5 md:py-12 mt-10 md:mt-30">
     <!-- Projects grid title -->
-    <div class="text-center pb-4">
-      <h1
-        class="heading text-secondary-dark border-color text-3xl sm:text-4xl font-general-medium mb-1 mt-20 text-center font-general-medium xl:text-2xl leading-none"
-      >
+    <div class="pb-2 text-left">
+      <h1 class="font-general-semibold sm:text-3xl text-lg text-gray-500">
         {{ projectsHeading }}
       </h1>
     </div>

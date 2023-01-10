@@ -5,8 +5,19 @@ export default {
 </script>
 
 <template>
-  <div class="rounded-lg hover:shadow-sm mb-10 sm:mb-0 card" aria-label="Single Project">
-    <div>
+  <div
+    class="rounded-sm hover:shadow-sm mb-20 h-64 border border-gray-400"
+    aria-label="Single Project"
+  >
+    <div class="text-center px-4 py-3">
+      <ul class="flex">
+        <a class="cursor-pointer rounded-lg bg-primary shadow-sm duration-500 mb-10 p-10">
+          <i
+            :data-feather="project.icon"
+            class="w-5 sm:w-6 h-5 sm:h-6 text-light-400"
+          ></i>
+        </a>
+      </ul>
       <!-- <img
 				:src="project.img"
 				:alt="project.title"
@@ -17,9 +28,9 @@ export default {
 			>Visit Site</a> -->
     </div>
     <div class="text-center px-4 py-3">
-      <p class="font-general-semibold text-xl text-left font-semibold mb-2 text-gray-400">
+      <!-- <p class="font-general-semibold text-xl text-left font-semibold mb-2 text-gray-400">
         {{ project.title }}
-      </p>
+      </p> -->
       <p class="font-general-bold text-sm text-gray-700 text-left mb-10">
         {{ project.category }}
       </p>
