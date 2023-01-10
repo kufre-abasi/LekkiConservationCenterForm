@@ -245,7 +245,13 @@ export default {
           >
         </div>
         <div>
-          <label class="block text-lg text-primary-dark mb-2" for="subject"
+          <p>LEKKI CONSERVATION CENTER with round-trip transportation: $ <span></span></p>
+          <p>LEKKI CONSERVATION CENTER without transportation: $<span></span></p>
+          <p>Personalized T- Shirt: $ <span></span></p>
+          <p>Personalized Cap: $<span></span></p>
+          <p>Sports Water Bottle: $<span></span></p>
+          <p>TOTAL:<span></span></p>
+          <!-- <label class="block text-lg text-primary-dark mb-2" for="subject"
             >LEKKI CONSERVATION CENTER with round-trip transportation: $</label
           >
           <input
@@ -256,7 +262,7 @@ export default {
             placeholder="Subject"
             aria-label="Subject"
             v-model="subject"
-          />
+          /> -->
         </div>
 
         <!-- <div>
