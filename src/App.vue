@@ -20,11 +20,11 @@ export default {
     // ProjectsGrid,
     // Skills,
   },
-  data: () => {
-    return {
-      appTheme: localStorage.getItem("theme"),
-    };
-  },
+  // data: () => {
+  //   return {
+  //     appTheme: localStorage.getItem("theme"),
+  //   };
+  // },
   mounted() {
     feather.replace();
   },
@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-  <div id="app" :class="appTheme" class="pt-0.5">
+  <div id="app" class="pt-0.5">
     <!-- <PageLoader /> -->
     <AppHeader />
     <!-- <Home /> -->
@@ -47,7 +47,7 @@ export default {
 
     <!-- Render active component contents with vue transition -->
     <!-- <transition name="fade" mode="out-in"> -->
-      <router-view :theme="appTheme" />
+    <router-view />
     <!-- </transition> -->
 
     <AppFooter />

@@ -34,9 +34,9 @@ export default {
 </script>
 
 <template>
-  <section class="sm:flex-row my-20 sm:my-30 md:h-96 sm:h-96 h-76 w-auto py-30">
+  <section class="sm:flex-row my-20 sm:my-30 md:h-96 sm:h-96 h-76 w-auto sm:pt-30">
     <!-- Banner left contents -->
-    <div class="w-auto md:w-auto text-center">
+    <div class="w-auto md:w-auto text-center py-20">
       <h1
         class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center text-gray-200 uppercase"
       >

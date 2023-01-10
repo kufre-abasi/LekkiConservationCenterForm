@@ -1,6 +1,14 @@
 <script>
+import feather from "feather-icons";
+
 export default {
   props: ["project"],
+  mounted() {
+    feather.replace();
+  },
+  updated() {
+    feather.replace();
+  },
 };
 </script>
 
