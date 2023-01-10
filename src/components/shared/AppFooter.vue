@@ -121,10 +121,12 @@ export default {
         </h4>
 
         <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
-          Tourist
+          <!-- <router-link>         
+             Tourist
+          </router-link> -->
         </p>
         <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
-          Banking
+          Imigration
         </p>
         <p class="font-general-regular text-md capitalize sm:text-md text-gray-300">
           Marketing
@@ -144,7 +146,7 @@ export default {
           class="font-general-regular text-md capitalize sm:text-md text-gray-300 flex flex-row"
         >
           <input
-            class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+            class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-bl-md rounded-tl-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
             id="email"
             name="email"
             type="text"
@@ -154,7 +156,7 @@ export default {
           />
           <Button
             title="Subscribe"
-            class="px-4 sm:px-6 py-2 sm:py-2.5 text-white bg-primary hover:bg-indigo-600 rounded-md focus:ring-1 focus:ring-indigo-900 duration-500"
+            class="px-4 sm:px-6 py-2 text-white bg-primary hover:bg-indigo-600 rounded-br-md rounded-tr-md focus:ring-1 focus:ring-indigo-900 duration-500"
             type="submit"
             aria-label="Submit Request"
           />

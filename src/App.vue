@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-  <div :class="appTheme" class="pt-0.5">
+  <div id="app" :class="appTheme" class="pt-0.5">
     <!-- <PageLoader /> -->
     <AppHeader />
     <!-- <Home /> -->
@@ -46,9 +46,9 @@ export default {
     <!-- <AppFooter /> -->
 
     <!-- Render active component contents with vue transition -->
-    <transition name="fade" mode="out-in">
+    <!-- <transition name="fade" mode="out-in"> -->
       <router-view :theme="appTheme" />
-    </transition>
+    <!-- </transition> -->
 
     <AppFooter />
 
