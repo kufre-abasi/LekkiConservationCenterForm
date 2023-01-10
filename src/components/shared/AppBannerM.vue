@@ -46,11 +46,12 @@ export default {
       <p
         class="font-general-regular mt-2 text-lg sm:text-xl xl:text-lg text-center leading-none text-gray-200"
       >
-        Take a walk along the longest canopy in Africa. From Monkeys to the beautiful
-        Peacock, crocodiles, snakes, and other wild animals, you will see all these at
-        this reserve. You will also enjoy the beautiful scenery of all the different
-        species of plants.
-      </p>
+One of the key values of the company is their focus on 
+supporting and connecting visitors and expats with the
+ local community. They believe that by fostering a deep 
+ understanding and appreciation of the host culture,
+ people are able to have a more authentic and fulfilling
+  experience when traveling or living in a new country.      </p>
       <div class="justify-center w-auto items-center text-center sm:block mt-12">
         <!-- <div> 
     <button @click="downloadPDF">Print Download</button>

@@ -12,25 +12,25 @@ export default {
   >
     <router-link
       to="/"
-      class="font-general-medium block text-left text-lg font-medium text-gray-200 sm:mx-4 mb-2 sm:py-2"
+      class="font-general-medium block text-left text-lg font-medium sm:mx-4 mb-2 sm:py-2"
       aria-label="Home"
       >Home</router-link
     >
     <router-link
       to="/"
-      class="font-general-medium block text-left text-lg font-medium text-light-200 sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+      class="font-general-medium block text-left text-lg font-medium sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
       aria-label="Projects"
       >Discover</router-link
     >
     <router-link
       to="/"
-      class="font-general-medium block text-left text-lg font-medium text-gray-200 sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+      class="font-general-medium block text-left text-lg font-medium sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
       aria-label="About Us"
       >About</router-link
     >
     <router-link
       to="/"
-      class="font-general-medium block text-left text-lg font-medium text-gray-200 sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+      class="font-general-medium block text-left text-lg font-medium sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
       aria-label="Contact"
       >Contact</router-link
     >
@@ -48,9 +48,4 @@ export default {
   </div>
 </template>
 
-<style scoped>
-.router-link-active,
-.router-link-exact-active {
-  color: gray !important;
-}
-</style>
+<style scoped></style>

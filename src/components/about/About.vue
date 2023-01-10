@@ -7,7 +7,12 @@ export default {
         {
           id: 1,
           bio:
-            "I'm Kufre-abasi Bassey, a Front-End developer. I work with web technologies, making interactive user interfaces, exploring the JavaScript ecosystem, and that's how I make my living.I spend most of my time writing code, reading books, and doing all that gives me a special joy.I love programming, design, user interfaces, open source, and that's what I'm passionate about.",
+            "Tribal Gateway is a company that specializes in providing assistance to tourists and individuals relocating to another country. They offer a wide range of services to make the transition as smooth as possible, from helping with visa applications and finding accommodation, to providing cultural orientation and language support. One of the key values of the company is their focus on supporting and connecting visitors and expats with the local community. They believe that by fostering a deep understanding and appreciation of the host culture, people are able to have a more authentic and fulfilling experience when traveling or living in a new country.",
+        },
+        {
+          id: 2,
+          bio:
+            "Tribal Gateway also prides itself on being very personalized, meaning they understand and cater to each customer's individual needs, whether you're a student, a retiree, a family or a business traveler. Overall, Tribal Gateway is a company that aims to be a one-stop shop for those in need of assistance while travelling or relocating to a new country, and with their wide range of services, they believe to help make the transition as seamless and enjoyable as possible.",
         },
       ],
       headings: [

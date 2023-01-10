@@ -4,29 +4,30 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Lead From',
+		title: 'Tutor Guide',
 		href:('https://leadfromdemo.netlify.app/'),
 		category: 'Dynamic Web App',
 		icon: "github",
+		msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel viverra egestas, massa velit ultrices velit, id aliquam magna nulla id nibh. Nulla facilisi. Sed luctus est sit amet tempor luctus. Integer ullamcorper, ligula id auctor aliquam, nisl est congue risus, euismod rhoncus risus ante ac ligula."
 
 		// img: require('@/assets/images/leadfrom.jpg'),
 	},
 	{
 		id: 2,
-		title: 'Tribinnov Africa',
+		title: 'Relocating',
 		href:('https://tribinnovafrica.com/'),
 		category: 'Dynamic Web App',
 		icon: "github",
-
+		msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel viverra egestas, massa velit ultrices velit, id aliquam magna nulla id nibh. Nulla facilisi. Sed luctus est sit amet tempor luctus. Integer ullamcorper, ligula id auctor aliquam, nisl est congue risus, euismod rhoncus risus ante ac ligula."
 		// img: require('@/assets/images/logovertical.png'),
 	},
 	{ 
 		id: 3,
-		title: 'Trek Bay',
+		title: 'Resort',
 		href:'https://trek-bay.netlify.app/',
 		category: 'Static Web App',
 		icon: "github",
-
+		msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel viverra egestas, massa velit ultrices velit, id aliquam magna nulla id nibh. Nulla facilisi. Sed luctus est sit amet tempor luctus. Integer ullamcorper, ligula id auctor aliquam, nisl est congue risus, euismod rhoncus risus ante ac ligula."
 		// img: require('@/assets/images/trek-bay.jpg'),
 	}, 
 	// {
