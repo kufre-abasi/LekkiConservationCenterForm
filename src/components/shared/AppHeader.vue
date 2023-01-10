@@ -71,10 +71,13 @@ export default {
 </script>
 
 <template>
-  <nav id="nav" class="shadow-xl fixed top-0 z-10 bg-primary-dark bg-opacity-40 px-20 w-full">
+  <nav
+    id="nav"
+    class="shadow-xl fixed top-0 z-10 bg-primary-dark bg-opacity-40 md:px-20 px-10 w-full"
+  >
     <!-- Header start -->
     <div
-      class="z-10 py-4 sm:py-0 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between my-2 sm:items-center items-center"
+      class="z-10 py-2 sm:py-0 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between md:my-2 sm:items-center items-center"
     >
       <!-- Header menu links and small screen hamburger menu -->
       <div class="flex justify-between items-center">
@@ -139,8 +142,8 @@ export default {
 
       <!-- Header right section buttons -->
       <!-- <div class="hidden sm:flex justify-between items-center flex-col md:flex-row"> -->
-        <!-- Hire me button -->
-        <!-- <div class="hidden md:block">
+      <!-- Hire me button -->
+      <!-- <div class="hidden md:block">
           <Button
             title="Get Package"
             class="text-md font-general-medium bg-primary hover:bg-primary text-white shadow-sm rounded-md px-4 sm:px-6 py-2 sm:py-2.5 duration-300"
@@ -149,8 +152,8 @@ export default {
           />
         </div> -->
 
-        <!-- Theme switcher large screen -->
-        <!-- <theme-switcher
+      <!-- Theme switcher large screen -->
+      <!-- <theme-switcher
 					:theme="theme"
 					@themeChanged="updateTheme"
 					class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer"
@@ -176,5 +179,10 @@ export default {
 }
 .logo {
   width: 25%;
+}
+@media only screen and (max-width: 425px) {
+  .logo {
+    width: 50%;
+  }
 }
 </style>
