@@ -240,7 +240,7 @@ export default {
         </div>
 
         <div>
-          <label class="block text-lg text-primary-dark mb-2" for="subject"
+          <label class="block text-lg text-primary-dark mb-1" for="subject"
             >Subtotal:</label
           >
         </div>
