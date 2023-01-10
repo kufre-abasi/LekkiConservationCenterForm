@@ -6,7 +6,7 @@ const routes = [
 		path: '/',
 		name: 'Resort',
 		component: () =>
-			import(/* webpackChunkName: "about" */ '../views/Resort.vue'),
+			import(/* webpackChunkName: "" */ '../views/Resort.vue'),
 		meta: {
 			title: 'Tribal-Gateway - Resort',
 		},
