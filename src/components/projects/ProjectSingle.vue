@@ -6,19 +6,16 @@ export default {
 
 <template>
   <div
-    class="rounded-sm hover:shadow-sm mb-20 border border-gray-400"
+    class="rounded-sm hover:shadow-sm mb-20 mt-10 border border-gray-400"
     aria-label="Single Project"
   >
-    <div class="text-center items-center px-4 py-3">
-      <ul class="items-center text-center">
+    <div class="text-left items-left px-4 py-3">
+      <ul class="items-left text-left">
         <a
           data-feather="chart"
-          class="cursor-pointer text-center items-center rounded-lg bg-primary shadow-sm duration-500 mb-10 p-6"
+          class="cursor-pointer text-left items-left rounded-lg bg-primary shadow-sm duration-500 mb-10 p-6"
         >
-          <i
-            :data-feather="project.icon"
-            class="items-center text-center text-light-400 w-0 h-0 m-0"
-          ></i>
+          <i :data-feather="project.icon" class="w-0 h-0 m-0"></i>
         </a>
       </ul>
     </div>
@@ -26,7 +23,7 @@ export default {
       <p class="font-general-semibold text-xl text-left font-semibold mb-2 text-gray-400">
         {{ project.title }}
       </p>
-      <p class="font-general-regular text-sm text-gray-700 text-center mb-10">
+      <p class="font-general-regular text-sm text-gray-700 text-justify mb-10">
         {{ project.msg }}
       </p>
     </div>

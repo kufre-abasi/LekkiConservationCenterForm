@@ -49,7 +49,7 @@ export default {
 
 <template>
   <!-- Projects grid -->
-  <section class="sm:px-20 px-10 py-5 md:py-12 mt-10 md:mt-30">
+  <section class="sm:px-20 px-10 py-5 md:py-12 mt-20 md:mt-30">
     <!-- Projects grid title -->
     <div class="pb-2 text-left">
       <h1 class="font-general-semibold sm:text-3xl text-lg text-gray-500">

@@ -22,7 +22,7 @@ export default {
 
 <template>
   <div class="">
-    <div :class="containerClasses" class="p-16">
+    <div :class="containerClasses" class="p-10 m:p-16">
       <AppBanner class="mb-5 sm:mb-8 container" />
     </div>
     <AboutUs />

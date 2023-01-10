@@ -34,7 +34,7 @@ export default {
 </script>
 
 <template>
-  <section class="sm:flex-row my-30 sm:my-30 md:h-96 sm:h-96 h-86 w-auto py-40">
+  <section class="sm:flex-row my-20 sm:my-30 md:h-96 sm:h-96 h-76 w-auto py-30">
     <!-- Banner left contents -->
     <div class="w-auto md:w-auto text-center">
       <h1
@@ -46,12 +46,12 @@ export default {
       <p
         class="font-general-regular mt-2 text-lg sm:text-xl xl:text-lg text-center leading-none text-gray-200"
       >
-One of the key values of the company is their focus on 
-supporting and connecting visitors and expats with the
- local community. They believe that by fostering a deep 
- understanding and appreciation of the host culture,
- people are able to have a more authentic and fulfilling
-  experience when traveling or living in a new country.      </p>
+        One of the key values of the company is their focus on supporting and connecting
+        visitors and expats with the local community. They believe that by fostering a
+        deep understanding and appreciation of the host culture, people are able to have a
+        more authentic and fulfilling experience when traveling or living in a new
+        country.
+      </p>
       <div class="justify-center w-auto items-center text-center sm:block mt-12">
         <!-- <div> 
     <button @click="downloadPDF">Print Download</button>
