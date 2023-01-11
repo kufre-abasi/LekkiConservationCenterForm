@@ -1,7 +1,7 @@
 <script>
 // import Button from '../reusable/Button.vue';
 // export default { components: { Button } };
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 export default {
   name: "ContactForm",
@@ -16,31 +16,7 @@ export default {
       message: "",
     };
   },
-  methods: {
-    sendEmail(e) {
-      try {
-        emailjs.sendForm(
-          "service_mj9twxa",
-          "template_3zfxfj6",
-          e.target,
-          "udTUt8SyCLDlHBMC5",
-          {
-            from_name: this.from_name,
-            email: this.email,
-            subject: this.subject,
-            message: this.message,
-          }
-        );
-      } catch (error) {
-        console.log({ error });
-      }
-      // Reset form field
-      this.from_name = "";
-      this.email = "";
-      this.subject = "";
-      this.message = "";
-    },
-  },
+  methods: {},
 };
 </script>
 
