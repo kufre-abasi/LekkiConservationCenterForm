@@ -34,11 +34,11 @@ export default {
 </script>
 
 <template>
-  <section class="sm:flex-row my-30 sm:my-30 md:h-96 sm:h-96 h-86 w-auto py-40">
+  <section class="sm:flex-row my-30 sm:my-30 md:h-98 sm:h-98 h-86 w-auto sm:py-40 py-20">
     <!-- Banner left contents -->
     <div class="w-auto md:w-auto text-center">
       <h1
-        class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center text-gray-200 uppercase"
+        class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center mt-10 text-gray-200 uppercase"
       >
         WELCOME TO
         <span class="text-color font-general-semibold">NIGERIA! </span>
